@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.guiahand</groupId>
+  <artifactId>guiahand</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>guiahand</name>
+  <description>Guia de serviços locais da cidade</description>
+  <modules>
+  	<module>guiahand-web</module>
+  	<module>guiahand-api</module>
+  	<module>guihand-model</module>
+  	<module>guiahand-persist</module>
+  	<module>guiahand-core</module>
+  </modules>
+</project>
