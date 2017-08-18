@@ -8,4 +8,31 @@
   <artifactId>guiahand-persist</artifactId>
   <name>guiahand-persist</name>
   <description>projeto com as classes de persistência do sistema</description>
+<url>http://maven.apache.org</url>
+    <repositories>
+        <repository>
+            <url>http://download.java.net/maven/2</url>
+            <id>hibernate-support</id>
+            <layout>default</layout>
+            <name>Repository for library Library[hibernate-support]</name>
+        </repository>
+    </repositories>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.2.10.Final</version>
+</dependency>
+
+
+
+
+        <dependency>
+        	<groupId>com.guiahand</groupId>
+        	<artifactId>guihand-model</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>

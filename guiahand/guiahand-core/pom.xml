@@ -8,4 +8,11 @@
   <artifactId>guiahand-core</artifactId>
   <name>guiahand-core</name>
   <description>projeto com as implementações dos serviços do sistema</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.guiahand</groupId>
+  		<artifactId>guiahand-persist</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
