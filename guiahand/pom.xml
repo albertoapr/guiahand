@@ -8,9 +8,9 @@
   <description>Guia de serviços locais da cidade</description>
   <modules>
   	<module>guiahand-web</module>
-  	<module>guiahand-api</module>
-  	<module>guihand-model</module>
-  	<module>guiahand-persist</module>
-  	<module>guiahand-core</module>
+  	<module>guiahand-interfaces</module>
+  	<module>guihand-modelo</module>
+  	<module>guiahand-persistencia</module>
+  	<module>guiahand-servico</module>
   </modules>
 </project>

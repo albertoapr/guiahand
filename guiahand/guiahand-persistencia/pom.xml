@@ -17,22 +17,5 @@
             <name>Repository for library Library[hibernate-support]</name>
         </repository>
     </repositories>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.2.10.Final</version>
-</dependency>
-
-
-
-
-        <dependency>
-        	<groupId>com.guiahand</groupId>
-        	<artifactId>guihand-model</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>
